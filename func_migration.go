@@ -2,12 +2,14 @@ package migres
 
 // FuncMigration enables creating a functional migration using callback functions.
 //
-//	type MyModule struct{}
+//	import "github.com/annybs/migres"
 //
-//	func Module() migres.Module {
+//	type MyBackend struct{}
+//
+//	func (mb *MyBackend) Module() migres.Module {
 //	  return migres.Module{
-//	    "1.0.0": migres.Func(MyModule.upgradeV1, MyModule.downgradeV1),
-//	    "2.0.0": migres.Func(MyModule.upgradeV2, MyModule.downgradeV2),
+//	    "1.0.0": migres.Func(mb.upgradeV1, mb.downgradeV1),
+//	    "2.0.0": migres.Func(mb.upgradeV2, mb.downgradeV2),
 //	  }
 //	}
 //
