@@ -8,7 +8,7 @@ This package provides simple migration capabilities for any backend.
 
 ## Basic usage
 
-The key type in this package is `Module` which allows mapping [version strings](https://pkg.go.dev/github.com/annybs/go/version) to `Migration` interfaces. For example:
+The key type in this package is `Module` which allows mapping [version strings](https://pkg.go.dev/github.com/annybs/go-version) to `Migration` interfaces. For example:
 
 ```go
 import "github.com/annybs/migres"

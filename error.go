@@ -3,7 +3,7 @@ package migres
 import (
 	"fmt"
 
-	"github.com/annybs/go/version"
+	"github.com/annybs/go-version"
 )
 
 // Migration error.

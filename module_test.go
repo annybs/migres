@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/annybs/go/version"
+	"github.com/annybs/go-version"
 )
 
 func TestModule_Upgrade(t *testing.T) {

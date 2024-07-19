@@ -4,7 +4,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/annybs/go/version"
+	"github.com/annybs/go-version"
 )
 
 // Module provides migrations keyed by version string.
